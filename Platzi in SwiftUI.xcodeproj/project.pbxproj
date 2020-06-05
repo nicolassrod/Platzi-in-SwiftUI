@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370EBD80248B0551007ECD54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370EBD7F248B0551007ECD54 /* AppDelegate.swift */; };
+		370EBD82248B0551007ECD54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370EBD81248B0551007ECD54 /* SceneDelegate.swift */; };
+		370EBD84248B0551007ECD54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370EBD83248B0551007ECD54 /* ContentView.swift */; };
+		370EBD86248B0555007ECD54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370EBD85248B0555007ECD54 /* Assets.xcassets */; };
+		370EBD89248B0555007ECD54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370EBD88248B0555007ECD54 /* Preview Assets.xcassets */; };
+		370EBD8C248B0555007ECD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370EBD8A248B0555007ECD54 /* LaunchScreen.storyboard */; };
+		370EBD97248B0556007ECD54 /* Platzi_in_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370EBD96248B0556007ECD54 /* Platzi_in_SwiftUITests.swift */; };
+		370EBDA2248B0556007ECD54 /* Platzi_in_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370EBDA1248B0556007ECD54 /* Platzi_in_SwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370EBD93248B0556007ECD54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370EBD74248B0551007ECD54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370EBD7B248B0551007ECD54;
+			remoteInfo = "Platzi in SwiftUI";
+		};
+		370EBD9E248B0556007ECD54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370EBD74248B0551007ECD54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370EBD7B248B0551007ECD54;
+			remoteInfo = "Platzi in SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370EBD7C248B0551007ECD54 /* Platzi in SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Platzi in SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		370EBD7F248B0551007ECD54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		370EBD81248B0551007ECD54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		370EBD83248B0551007ECD54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		370EBD85248B0555007ECD54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370EBD88248B0555007ECD54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		370EBD8B248B0555007ECD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		370EBD8D248B0555007ECD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370EBD92248B0556007ECD54 /* Platzi in SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Platzi in SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		370EBD96248B0556007ECD54 /* Platzi_in_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platzi_in_SwiftUITests.swift; sourceTree = "<group>"; };
+		370EBD98248B0556007ECD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370EBD9D248B0556007ECD54 /* Platzi in SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Platzi in SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		370EBDA1248B0556007ECD54 /* Platzi_in_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platzi_in_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		370EBDA3248B0556007ECD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370EBD79248B0551007ECD54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370EBD8F248B0556007ECD54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370EBD9A248B0556007ECD54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370EBD73248B0551007ECD54 = {
+			isa = PBXGroup;
+			children = (
+				370EBD7E248B0551007ECD54 /* Platzi in SwiftUI */,
+				370EBD95248B0556007ECD54 /* Platzi in SwiftUITests */,
+				370EBDA0248B0556007ECD54 /* Platzi in SwiftUIUITests */,
+				370EBD7D248B0551007ECD54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370EBD7D248B0551007ECD54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370EBD7C248B0551007ECD54 /* Platzi in SwiftUI.app */,
+				370EBD92248B0556007ECD54 /* Platzi in SwiftUITests.xctest */,
+				370EBD9D248B0556007ECD54 /* Platzi in SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370EBD7E248B0551007ECD54 /* Platzi in SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				370EBD7F248B0551007ECD54 /* AppDelegate.swift */,
+				370EBD81248B0551007ECD54 /* SceneDelegate.swift */,
+				370EBD83248B0551007ECD54 /* ContentView.swift */,
+				370EBD85248B0555007ECD54 /* Assets.xcassets */,
+				370EBD8A248B0555007ECD54 /* LaunchScreen.storyboard */,
+				370EBD8D248B0555007ECD54 /* Info.plist */,
+				370EBD87248B0555007ECD54 /* Preview Content */,
+			);
+			path = "Platzi in SwiftUI";
+			sourceTree = "<group>";
+		};
+		370EBD87248B0555007ECD54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				370EBD88248B0555007ECD54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		370EBD95248B0556007ECD54 /* Platzi in SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				370EBD96248B0556007ECD54 /* Platzi_in_SwiftUITests.swift */,
+				370EBD98248B0556007ECD54 /* Info.plist */,
+			);
+			path = "Platzi in SwiftUITests";
+			sourceTree = "<group>";
+		};
+		370EBDA0248B0556007ECD54 /* Platzi in SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				370EBDA1248B0556007ECD54 /* Platzi_in_SwiftUIUITests.swift */,
+				370EBDA3248B0556007ECD54 /* Info.plist */,
+			);
+			path = "Platzi in SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370EBD7B248B0551007ECD54 /* Platzi in SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370EBDA6248B0556007ECD54 /* Build configuration list for PBXNativeTarget "Platzi in SwiftUI" */;
+			buildPhases = (
+				370EBD78248B0551007ECD54 /* Sources */,
+				370EBD79248B0551007ECD54 /* Frameworks */,
+				370EBD7A248B0551007ECD54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Platzi in SwiftUI";
+			productName = "Platzi in SwiftUI";
+			productReference = 370EBD7C248B0551007ECD54 /* Platzi in SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		370EBD91248B0556007ECD54 /* Platzi in SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370EBDA9248B0556007ECD54 /* Build configuration list for PBXNativeTarget "Platzi in SwiftUITests" */;
+			buildPhases = (
+				370EBD8E248B0556007ECD54 /* Sources */,
+				370EBD8F248B0556007ECD54 /* Frameworks */,
+				370EBD90248B0556007ECD54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370EBD94248B0556007ECD54 /* PBXTargetDependency */,
+			);
+			name = "Platzi in SwiftUITests";
+			productName = "Platzi in SwiftUITests";
+			productReference = 370EBD92248B0556007ECD54 /* Platzi in SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		370EBD9C248B0556007ECD54 /* Platzi in SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370EBDAC248B0556007ECD54 /* Build configuration list for PBXNativeTarget "Platzi in SwiftUIUITests" */;
+			buildPhases = (
+				370EBD99248B0556007ECD54 /* Sources */,
+				370EBD9A248B0556007ECD54 /* Frameworks */,
+				370EBD9B248B0556007ECD54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370EBD9F248B0556007ECD54 /* PBXTargetDependency */,
+			);
+			name = "Platzi in SwiftUIUITests";
+			productName = "Platzi in SwiftUIUITests";
+			productReference = 370EBD9D248B0556007ECD54 /* Platzi in SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370EBD74248B0551007ECD54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Nicolás A. Rodríguez";
+				TargetAttributes = {
+					370EBD7B248B0551007ECD54 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					370EBD91248B0556007ECD54 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 370EBD7B248B0551007ECD54;
+					};
+					370EBD9C248B0556007ECD54 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 370EBD7B248B0551007ECD54;
+					};
+				};
+			};
+			buildConfigurationList = 370EBD77248B0551007ECD54 /* Build configuration list for PBXProject "Platzi in SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370EBD73248B0551007ECD54;
+			productRefGroup = 370EBD7D248B0551007ECD54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370EBD7B248B0551007ECD54 /* Platzi in SwiftUI */,
+				370EBD91248B0556007ECD54 /* Platzi in SwiftUITests */,
+				370EBD9C248B0556007ECD54 /* Platzi in SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370EBD7A248B0551007ECD54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370EBD8C248B0555007ECD54 /* LaunchScreen.storyboard in Resources */,
+				370EBD89248B0555007ECD54 /* Preview Assets.xcassets in Resources */,
+				370EBD86248B0555007ECD54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370EBD90248B0556007ECD54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370EBD9B248B0556007ECD54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370EBD78248B0551007ECD54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370EBD80248B0551007ECD54 /* AppDelegate.swift in Sources */,
+				370EBD82248B0551007ECD54 /* SceneDelegate.swift in Sources */,
+				370EBD84248B0551007ECD54 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370EBD8E248B0556007ECD54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370EBD97248B0556007ECD54 /* Platzi_in_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		370EBD99248B0556007ECD54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370EBDA2248B0556007ECD54 /* Platzi_in_SwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370EBD94248B0556007ECD54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370EBD7B248B0551007ECD54 /* Platzi in SwiftUI */;
+			targetProxy = 370EBD93248B0556007ECD54 /* PBXContainerItemProxy */;
+		};
+		370EBD9F248B0556007ECD54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370EBD7B248B0551007ECD54 /* Platzi in SwiftUI */;
+			targetProxy = 370EBD9E248B0556007ECD54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		370EBD8A248B0555007ECD54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370EBD8B248B0555007ECD54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		370EBDA4248B0556007ECD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		370EBDA5248B0556007ECD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		370EBDA7248B0556007ECD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Platzi in SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = D5DZX4N5C6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Platzi in SwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasr.Platzi-in-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		370EBDA8248B0556007ECD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Platzi in SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = D5DZX4N5C6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Platzi in SwiftUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasr.Platzi-in-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		370EBDAA248B0556007ECD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5DZX4N5C6;
+				INFOPLIST_FILE = "Platzi in SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasr.Platzi-in-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platzi in SwiftUI.app/Platzi in SwiftUI";
+			};
+			name = Debug;
+		};
+		370EBDAB248B0556007ECD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5DZX4N5C6;
+				INFOPLIST_FILE = "Platzi in SwiftUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasr.Platzi-in-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Platzi in SwiftUI.app/Platzi in SwiftUI";
+			};
+			name = Release;
+		};
+		370EBDAD248B0556007ECD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5DZX4N5C6;
+				INFOPLIST_FILE = "Platzi in SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasr.Platzi-in-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Platzi in SwiftUI";
+			};
+			name = Debug;
+		};
+		370EBDAE248B0556007ECD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5DZX4N5C6;
+				INFOPLIST_FILE = "Platzi in SwiftUIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicolasr.Platzi-in-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Platzi in SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370EBD77248B0551007ECD54 /* Build configuration list for PBXProject "Platzi in SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370EBDA4248B0556007ECD54 /* Debug */,
+				370EBDA5248B0556007ECD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370EBDA6248B0556007ECD54 /* Build configuration list for PBXNativeTarget "Platzi in SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370EBDA7248B0556007ECD54 /* Debug */,
+				370EBDA8248B0556007ECD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370EBDA9248B0556007ECD54 /* Build configuration list for PBXNativeTarget "Platzi in SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370EBDAA248B0556007ECD54 /* Debug */,
+				370EBDAB248B0556007ECD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370EBDAC248B0556007ECD54 /* Build configuration list for PBXNativeTarget "Platzi in SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370EBDAD248B0556007ECD54 /* Debug */,
+				370EBDAE248B0556007ECD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 370EBD74248B0551007ECD54 /* Project object */;
+}
